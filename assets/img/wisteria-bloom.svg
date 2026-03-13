@@ -1,0 +1,33 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="petalA" x1="48" y1="32" x2="164" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1FF"/>
+      <stop offset="0.52" stop-color="#D8C2FF"/>
+      <stop offset="1" stop-color="#8B5FDB"/>
+    </linearGradient>
+    <linearGradient id="petalB" x1="66" y1="44" x2="172" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9DBFF"/>
+      <stop offset="1" stop-color="#6F42C1"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="107" y1="20" x2="123" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8B7F3"/>
+      <stop offset="1" stop-color="#7A5AAE"/>
+    </linearGradient>
+    <filter id="shadow" x="10" y="8" width="200" height="204" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#6C44B5" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M112 22C116 42 117 58 114 70C111 83 104 95 96 106" stroke="url(#stem)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M118 36C132 48 140 61 141 76C142 89 137 100 128 109" stroke="url(#stem)" stroke-width="5" stroke-linecap="round" opacity="0.76"/>
+    <path d="M94 74C79 72 63 81 60 96C57 113 69 125 84 127C101 128 112 115 111 101C110 88 104 77 94 74Z" fill="url(#petalA)"/>
+    <path d="M124 70C110 70 97 80 96 95C95 110 107 123 122 123C138 123 149 111 149 96C149 81 138 70 124 70Z" fill="url(#petalB)"/>
+    <path d="M79 109C65 109 53 119 52 134C50 148 61 160 75 160C90 161 102 150 102 136C102 121 93 109 79 109Z" fill="url(#petalB)"/>
+    <path d="M112 107C95 107 82 118 82 135C82 151 95 164 111 164C128 164 141 151 141 135C141 118 128 107 112 107Z" fill="url(#petalA)"/>
+    <path d="M145 106C131 106 119 116 118 131C117 146 128 157 143 157C158 157 169 146 169 131C169 116 158 106 145 106Z" fill="url(#petalB)"/>
+    <path d="M94 145C81 145 70 156 70 170C70 183 80 193 94 194C108 194 118 183 118 170C118 156 108 145 94 145Z" fill="url(#petalA)"/>
+    <path d="M129 146C116 146 106 156 106 169C106 182 116 192 129 192C143 192 153 182 153 169C153 156 143 146 129 146Z" fill="url(#petalB)"/>
+    <circle cx="110" cy="96" r="10" fill="#FFF5C9" opacity="0.95"/>
+    <circle cx="112" cy="135" r="8" fill="#FFEAA7" opacity="0.88"/>
+  </g>
+</svg>
