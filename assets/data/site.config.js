@@ -24,7 +24,7 @@ window.WisteriaSiteConfig = {
     checkoutCancel: "checkout/cancel/index.html",
     outlineChromeUrl: "https://chromewebstore.google.com/detail/opbngifmlnoahbhjhgmngkggedlofddj",
     inboxExtensionUrl: "#",
-    inboxLocalMacUrl: "#",
+    inboxLocalMacUrl: "https://download.wisteriasoftware.uk/Inbox-1.0.0-mac.dmg",
     suiteCheckoutUrl: "#"
   }
 };
