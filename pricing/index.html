@@ -9,78 +9,129 @@
   <link rel="stylesheet" href="../assets/css/site.css" />
 </head>
 <body data-page="pricing" data-root=".." data-title-key="pricing.title" data-description-key="pricing.description">
-  <div id="site-header"></div>
+  <div id="site-header">
+    <header class="site-header">
+      <div class="shell nav-shell">
+        <a class="brand-lockup" href="../index.html">
+          <span class="brand-kicker">Wisteria Software</span>
+          <span class="brand-name">Wisteria Inbox Suite</span>
+        </a>
+        <div class="nav-cluster">
+          <nav class="site-nav" aria-label="Primary">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../products/index.html">Products</a>
+            <a class="nav-link" href="../downloads/index.html">Downloads</a>
+            <a class="nav-link is-active" href="../pricing/index.html">Pricing</a>
+            <a class="nav-link" href="../support/index.html">Support</a>
+            <a class="nav-link" href="../privacy/index.html">Privacy Policy</a>
+            <a class="nav-link" href="../terms/index.html">Terms &amp; Conditions</a>
+            <a class="nav-link" href="../refund/index.html">Refund Policy</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
   <main>
     <div class="shell page-stack">
       <section class="hero-panel page-hero">
-        <h1 data-i18n="pricing.heroTitle"></h1>
-        <p class="lead" data-i18n="pricing.heroBody"></p>
+        <h1 data-i18n="pricing.heroTitle">Pricing</h1>
+        <p class="lead" data-i18n="pricing.heroBody">A simple annual plan for the suite, prepared for Paddle hosted checkout review and linked legal pages.</p>
       </section>
       <section class="section-panel">
         <div class="section-head">
           <div>
-            <h2 data-i18n="pricing.introTitle"></h2>
-            <p class="section-copy" data-i18n="pricing.introBody"></p>
+            <h2 data-i18n="pricing.introTitle">Free and Pro positioning</h2>
+            <p class="section-copy" data-i18n="pricing.introBody">The free version remains useful for core workflows, while Pro unlocks higher-leverage features.</p>
           </div>
         </div>
       </section>
       <section class="section-panel">
         <div class="grid-3">
           <article class="card">
-            <div class="card-tag" data-i18n="common.freePlan"></div>
-            <h3 style="margin-top:14px;" data-i18n="pricing.freePlanTitle"></h3>
-            <p data-i18n="pricing.freePlanBody"></p>
+            <div class="card-tag" data-i18n="common.freePlan">Free plan</div>
+            <h3 style="margin-top:14px;" data-i18n="pricing.freePlanTitle">Free</h3>
+            <p data-i18n="pricing.freePlanBody">Use the suite for core workflows with some feature limits.</p>
             <ul class="list">
-              <li data-i18n="pricing.freePlanFeature1"></li>
-              <li data-i18n="pricing.freePlanFeature2"></li>
-              <li data-i18n="pricing.freePlanFeature3"></li>
-              <li data-i18n="pricing.freePlanFeature4"></li>
+              <li data-i18n="pricing.freePlanFeature1">Basic ChatGPT inbox usage</li>
+              <li data-i18n="pricing.freePlanFeature2">Inbox browser capture and local review</li>
+              <li data-i18n="pricing.freePlanFeature3">Preview, edit, filter, and organize saved entries</li>
+              <li data-i18n="pricing.freePlanFeature4">Advanced workflow features limited</li>
             </ul>
           </article>
           <article class="card">
-            <div class="card-tag" data-i18n="common.proPlan"></div>
-            <h3 style="margin-top:14px;" data-i18n="pricing.planTitle"></h3>
-            <p data-i18n="pricing.planBody"></p>
+            <div class="card-tag" data-i18n="common.proPlan">Pro plan</div>
+            <h3 style="margin-top:14px;" data-i18n="pricing.planTitle">Wisteria Inbox Suite Annual</h3>
+            <p data-i18n="pricing.planBody">One early adopter annual plan is offered while the full product packaging is being finalized.</p>
             <div class="price-block">
               <div class="price-stack">
-                <div class="price-original" data-i18n="common.originalAnnualPrice"></div>
+                <div class="price-original" data-i18n="common.originalAnnualPrice">$29/year</div>
                 <div class="price-row">
                   <div class="price-value">$19</div>
-                  <div class="muted" data-i18n="common.annualSuffix"></div>
+                  <div class="muted" data-i18n="common.annualSuffix">/year</div>
                 </div>
               </div>
             </div>
             <ul class="list">
-              <li data-i18n="pricing.proFeature1"></li>
-              <li data-i18n="pricing.proFeature2"></li>
-              <li data-i18n="pricing.proFeature3"></li>
-              <li data-i18n="pricing.proFeature4"></li>
+              <li data-i18n="pricing.proFeature1">One-click import from ChatGPT into Inbox</li>
+              <li data-i18n="pricing.proFeature2">Unlimited clickable jump links in ChatGPT inbox</li>
+              <li data-i18n="pricing.proFeature3">Inbox AI summary features</li>
+              <li data-i18n="pricing.proFeature4">Future updates within the active term</li>
             </ul>
             <div class="button-row">
-              <a class="btn" data-config-href="links.suiteCheckoutUrl" data-i18n="common.buyNow"></a>
+              <a class="btn" data-config-href="links.suiteCheckoutUrl" data-i18n="common.buyNow" href="#">Buy now</a>
             </div>
           </article>
           <article class="card">
-            <div class="card-tag" data-i18n="common.checkout"></div>
-            <h3 style="margin-top:14px;" data-i18n="pricing.checkoutCardTitle"></h3>
-            <p data-i18n="pricing.checkoutBody"></p>
-            <div class="notice-strip" data-i18n="common.checkoutPlaceholder"></div>
+            <div class="card-tag" data-i18n="common.checkout">Checkout</div>
+            <h3 style="margin-top:14px;" data-i18n="pricing.checkoutCardTitle">Hosted checkout</h3>
+            <p data-i18n="pricing.checkoutBody">Replace the CTA below with your Paddle hosted checkout link after product mapping is complete.</p>
+            <div class="notice-strip" data-i18n="common.checkoutPlaceholder">Replace with Paddle hosted checkout link</div>
           </article>
           <article class="card">
-            <div class="card-tag" data-i18n="common.notes"></div>
-            <h3 style="margin-top:14px;" data-i18n="pricing.notesCardTitle"></h3>
-            <p data-i18n="pricing.legalBody"></p>
+            <div class="card-tag" data-i18n="common.notes">Notes</div>
+            <h3 style="margin-top:14px;" data-i18n="pricing.notesCardTitle">Commercial notes</h3>
+            <p data-i18n="pricing.legalBody">Payments are processed by Paddle as Merchant of Record. Pricing, terms, refund policy, privacy policy, and support details should remain visible before checkout.</p>
           </article>
           <article class="card">
-            <div class="card-tag" data-i18n="common.policy"></div>
-            <h3 style="margin-top:14px;" data-i18n="pricing.policyTitle"></h3>
-            <p data-i18n="pricing.policyBody"></p>
+            <div class="card-tag" data-i18n="common.policy">Policy</div>
+            <h3 style="margin-top:14px;" data-i18n="pricing.policyTitle">Refund and support</h3>
+            <p data-i18n="pricing.policyBody">Eligible digital purchases include a 14-day refund policy, and support contact details are available before checkout.</p>
+            <ul class="list">
+              <li><a href="../privacy/index.html">Privacy Policy</a></li>
+              <li><a href="../terms/index.html">Terms &amp; Conditions</a></li>
+              <li><a href="../refund/index.html">Refund Policy</a></li>
+              <li><a href="../support/index.html">Support</a></li>
+            </ul>
           </article>
         </div>
       </section>
     </div>
   </main>
-  <div id="site-footer"></div>
+  <div id="site-footer">
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <div class="footer-brand">Wisteria Inbox Suite</div>
+          <p class="footer-copy">Local-first tools for capturing, organizing, and revisiting AI-native work.</p>
+        </div>
+        <div class="footer-links">
+          <a href="../products/index.html">Products</a>
+          <a href="../downloads/index.html">Downloads</a>
+          <a href="../pricing/index.html">Pricing</a>
+          <a href="../support/index.html">Support</a>
+          <a href="../privacy/index.html">Privacy Policy</a>
+          <a href="../terms/index.html">Terms &amp; Conditions</a>
+          <a href="../refund/index.html">Refund Policy</a>
+        </div>
+        <div class="footer-meta">
+          <div>Wisteria Software Ltd.</div>
+          <div>Registered in England and Wales.</div>
+          <div>Company No. 16965144</div>
+          <div>Contact: <a href="mailto:support@wisteriasoftware.uk">support@wisteriasoftware.uk</a></div>
+        </div>
+      </div>
+    </footer>
+  </div>
   <script src="../assets/data/site.config.js"></script>
   <script src="../assets/data/site.en.js"></script>
   <script src="../assets/data/site.zh.js"></script>

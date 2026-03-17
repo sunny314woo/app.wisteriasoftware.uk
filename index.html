@@ -9,7 +9,28 @@
   <link rel="stylesheet" href="./assets/css/site.css" />
 </head>
 <body data-page="home" data-root="." data-title-key="home.title" data-description-key="home.description">
-  <div id="site-header"></div>
+  <div id="site-header">
+    <header class="site-header">
+      <div class="shell nav-shell">
+        <a class="brand-lockup" href="./index.html">
+          <span class="brand-kicker">Wisteria Software</span>
+          <span class="brand-name">Wisteria Inbox Suite</span>
+        </a>
+        <div class="nav-cluster">
+          <nav class="site-nav" aria-label="Primary">
+            <a class="nav-link is-active" href="./index.html">Home</a>
+            <a class="nav-link" href="./products/index.html">Products</a>
+            <a class="nav-link" href="./downloads/index.html">Downloads</a>
+            <a class="nav-link" href="./pricing/index.html">Pricing</a>
+            <a class="nav-link" href="./support/index.html">Support</a>
+            <a class="nav-link" href="./privacy/index.html">Privacy Policy</a>
+            <a class="nav-link" href="./terms/index.html">Terms &amp; Conditions</a>
+            <a class="nav-link" href="./refund/index.html">Refund Policy</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
 
   <main>
     <div class="shell page-stack">
@@ -17,35 +38,68 @@
         <div class="hero-panel">
           <div class="hero-mark">
             <img class="hero-mark-icon" src="./assets/img/wisteria-bloom.svg" alt="Wisteria flower icon" />
-            <div class="eyebrow" data-i18n="home.eyebrow"></div>
+            <div class="eyebrow" data-i18n="home.eyebrow">New Product Portal</div>
           </div>
-          <h1 data-i18n="home.heroTitle"></h1>
-          <p class="lead" data-i18n="home.heroBody"></p>
-          <p class="muted" style="margin-top:14px;" data-i18n="home.heroNote"></p>
+          <h1 data-i18n="home.heroTitle">One suite for capturing, organizing, and revisiting AI work.</h1>
+          <p class="lead" data-i18n="home.heroBody">Wisteria Inbox Suite brings together ChatGPT inbox, Inbox Capture, and the local Inbox service into one local-first workflow.</p>
+          <p class="muted" style="margin-top:14px;" data-i18n="home.heroNote">Free to start, with Pro features for advanced workflows.</p>
           <div class="hero-actions">
-            <a class="btn" href="./products/index.html" data-i18n="home.heroPrimary"></a>
-            <a class="btn-secondary" href="./pricing/index.html" data-i18n="home.heroSecondary"></a>
+            <a class="btn" href="./products/index.html" data-i18n="home.heroPrimary">Explore the suite</a>
+            <a class="btn-secondary" href="./pricing/index.html" data-i18n="home.heroSecondary">See pricing</a>
           </div>
-          <div class="notice-strip" data-i18n="common.localizedDraft"></div>
+          <div class="notice-strip" data-i18n="common.localizedDraft">Chinese interface is wired and ready for content.</div>
         </div>
 
         <aside class="hero-sidecard">
-          <div class="card-tag" data-i18n="common.earlyAdopter"></div>
-          <h3 style="margin-top:16px;" data-i18n="home.heroCardTitle"></h3>
-          <p data-i18n="home.heroCardBody"></p>
+          <div class="card-tag" data-i18n="common.earlyAdopter">Early adopter pricing</div>
+          <h3 style="margin-top:16px;" data-i18n="home.heroCardTitle">Early adopter pricing</h3>
+          <p data-i18n="home.heroCardBody">Launch with an early adopter annual plan at $19/year while the hosted checkout flow is being finalized.</p>
           <div class="price-block">
             <div class="price-stack">
-              <div class="price-original" data-i18n="common.originalAnnualPrice"></div>
+              <div class="price-original" data-i18n="common.originalAnnualPrice">$29/year</div>
               <div class="price-row">
                 <div class="price-value">$19</div>
-                <div class="muted" data-i18n="common.annualSuffix"></div>
+                <div class="muted" data-i18n="common.annualSuffix">/year</div>
               </div>
             </div>
           </div>
           <div class="button-row">
-            <a class="btn" href="./pricing/index.html" data-i18n="common.viewPricing"></a>
+            <a class="btn" href="./pricing/index.html" data-i18n="common.viewPricing">View pricing</a>
           </div>
         </aside>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-head">
+          <div>
+            <h2>Buyer Information</h2>
+            <p class="section-copy">Review pricing, privacy, terms, refund, and support information before checkout.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Pricing</h3>
+            <p>Review the annual plan, checkout notes, and support links.</p>
+            <div class="button-row">
+              <a class="btn-secondary" href="./pricing/index.html">Open pricing page</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Policies</h3>
+            <ul class="list">
+              <li><a href="./privacy/index.html">Privacy Policy</a></li>
+              <li><a href="./terms/index.html">Terms &amp; Conditions</a></li>
+              <li><a href="./refund/index.html">Refund Policy</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Support</h3>
+            <p>Email <a href="mailto:support@wisteriasoftware.uk">support@wisteriasoftware.uk</a> for billing, refunds, or product questions.</p>
+            <div class="button-row">
+              <a class="btn-secondary" href="./support/index.html">Open support page</a>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section class="section-panel">
@@ -434,7 +488,31 @@
     </div>
   </main>
 
-  <div id="site-footer"></div>
+  <div id="site-footer">
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <div class="footer-brand">Wisteria Inbox Suite</div>
+          <p class="footer-copy">Local-first tools for capturing, organizing, and revisiting AI-native work.</p>
+        </div>
+        <div class="footer-links">
+          <a href="./products/index.html">Products</a>
+          <a href="./downloads/index.html">Downloads</a>
+          <a href="./pricing/index.html">Pricing</a>
+          <a href="./support/index.html">Support</a>
+          <a href="./privacy/index.html">Privacy Policy</a>
+          <a href="./terms/index.html">Terms &amp; Conditions</a>
+          <a href="./refund/index.html">Refund Policy</a>
+        </div>
+        <div class="footer-meta">
+          <div>Wisteria Software Ltd.</div>
+          <div>Registered in England and Wales.</div>
+          <div>Company No. 16965144</div>
+          <div>Contact: <a href="mailto:support@wisteriasoftware.uk">support@wisteriasoftware.uk</a></div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
   <script src="./assets/data/site.config.js"></script>
   <script src="./assets/data/site.en.js"></script>

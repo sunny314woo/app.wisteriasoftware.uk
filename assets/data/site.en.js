@@ -12,9 +12,9 @@ window.WisteriaLocales.en = {
     downloads: "Downloads",
     pricing: "Pricing",
     support: "Support",
-    privacy: "Privacy",
-    terms: "Terms",
-    refund: "Refund"
+    privacy: "Privacy Policy",
+    terms: "Terms & Conditions",
+    refund: "Refund Policy"
   },
   footer: {
     tagline: "Local-first tools for capturing, organizing, and revisiting AI-native work.",
@@ -262,9 +262,9 @@ window.WisteriaLocales.en = {
     section7Body: "Where purchases are offered, related pricing, terms, refund policy, and support information should be available alongside the checkout flow so buyers can review them before payment."
   },
   terms: {
-    title: "Terms of Service | Wisteria Inbox Suite",
-    description: "Terms of service for the Wisteria Inbox Suite and related product downloads.",
-    heroTitle: "Terms of Service",
+    title: "Terms & Conditions | Wisteria Inbox Suite",
+    description: "Terms and conditions for the Wisteria Inbox Suite and related product downloads.",
+    heroTitle: "Terms & Conditions",
     heroBody: "Base terms for the Wisteria Inbox Suite product portal and related downloads.",
     section1Title: "1. Scope",
     section1Body: "These terms govern access to the Wisteria Inbox Suite site, product downloads, updates, and related support and payment flows.",
