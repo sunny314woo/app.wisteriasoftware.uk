@@ -119,6 +119,14 @@
     });
   }
 
+  function initMailtoLinks() {
+    document.querySelectorAll("[data-mailto]").forEach(function(node) {
+      var email = node.getAttribute("data-mailto");
+      if (!email) return;
+      node.setAttribute("href", "mailto:" + email);
+    });
+  }
+
   function initLocaleSwitch() {
     document.querySelectorAll("[data-locale-switch]").forEach(function(node) {
       node.addEventListener("click", function() {
@@ -180,6 +188,7 @@
     renderHeader(locale, dict);
     renderFooter(dict);
     applyConfig();
+    initMailtoLinks();
     i18n.translate(locale);
     preserveLocaleInLinks(locale);
     initLocaleSwitch();
